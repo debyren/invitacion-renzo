@@ -16,7 +16,6 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    flex-wrap: wrap;
     margin-top: 50px;
 }
 .renzo{
@@ -44,7 +43,7 @@ body{
 .contador{
     font-family: 'Abel', sans-serif;  
     font-size: 40px;
-    margin-top: 50px;
+    
     flex-wrap: wrap;
 }
 .calendario{
@@ -75,4 +74,66 @@ body{
     height: 40px;
     border-radius: 10px;
     border:none ;
+}
+
+@media screen and (max-width: 420px){
+    body{
+      background-image: url(./images/banderinesverdes.jpg);
+      backdrop-filter: blur(0px);
+      background-size: cover;	
+    background-position: center center;	
+    background-attachment: fixed;
+   
+    }
+    
+   .renzo{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 35px
+   }
+   .renzi{
+    width: 200px;
+    height: 250px;
+    margin-left: 30px;
+   }
+   .invita{
+    font-size: medium;
+    padding-inline: 50px;
+    display: flex;
+
+   }
+   .faltan{
+    font-family: 'Abel', sans-serif; 
+    font-size: medium;
+    padding-inline: 100px;
+    display: flex;
+    margin-top: 20px;
+   }
+   .contador{
+    font-size: 15px;
+    margin-left: 10px;
+    
+    display: flex;
+    flex-wrap: wrap;
+   }
+.calendario{
+    width: 200px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.direccion{
+    font-size: medium;
+    padding-inline: 20px;
+    display: flex;
+}
+.iframe{
+    width: 250px;
+    height: 280px;
+}
+.asistencia{
+    font-size: medium;
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
 }
