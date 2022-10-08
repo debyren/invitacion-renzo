@@ -78,7 +78,7 @@ body{
 
 @media screen and (max-width: 420px){
     body{
-      background-image: url(./images/banderinesverdes.jpg);
+      background-image: url(./images/globosceleste.jpg);
       backdrop-filter: blur(0px);
       background-size: cover;	
     background-position: center center;	
