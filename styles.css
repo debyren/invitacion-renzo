@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lobster&family=Satisfy&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+body{
+    background-image: url(./images/banderinesverdes.jpg);
+    backdrop-filter: blur(2px);
+    background-size: cover;	
+    background-position: center center;	
+    background-attachment: fixed;	
+
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.renzo{
+    font-family: 'Satisfy', cursive;
+    font-size: 80px;
+    color: rgb(37, 50, 59);
+    background-color: rgba(0, 0, 0, 0.075);
+   
+}
+.renzi{
+    width: 300px;
+    height: 400px;
+    margin:auto;
+	display:block;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.invita{
+    font-family: 'Abel', sans-serif;  
+    font-size: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.contador{
+    font-family: 'Abel', sans-serif;  
+    font-size: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.calendario{
+    width: 300px;
+    height: 450px;
+    margin:auto;
+	display:block;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.direccion{
+    font-family: 'Abel', sans-serif;  
+    font-size: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.iframe{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.boton{
+    background-color: gray;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 105px;
+    height: 40px;
+    border-radius: 10px;
+    border:none ;
+}

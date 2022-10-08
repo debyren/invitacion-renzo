@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Invitacion al cumple de Renzo</title>
+</head>
+<body>
+<div class="todo"  >
+ <h1 class="renzo"  >Renzo <br> 2 años </h1>
+ <img class="renzi" src="./images/renzo.jpg" alt="renzo">
+<h2 class="invita">Te invito a mi cumpleaños que voy a realizar el dia:  <br><br> Domingo 06 de noviembre <br> de 15hs a 18hs </h2>
+<div class="contador">
+<h2>Faltan:</h2>
+<div id="countdown"></div>
+<script>
+let end = new Date('11/06/2022 9:30 AM');
+
+    let _second = 1000;
+    let _minute = _second * 60;
+    let _hour = _minute * 60;
+    let _day = _hour * 24;
+    let timer;
+
+    function showRemaining() {
+        let now = new Date();
+        let distance = end - now;
+        if (distance < 0) {
+
+            clearInterval(timer);
+            document.getElementById('countdown').innerHTML = 'EXPIRED!';
+
+            return;
+        }
+        let days = Math.floor(distance / _day);
+        let hours = Math.floor((distance % _day) / _hour);
+        let minutes = Math.floor((distance % _hour) / _minute);
+        let seconds = Math.floor((distance % _minute) / _second);
+
+        document.getElementById('countdown').innerHTML = days + ' dias, ';
+        document.getElementById('countdown').innerHTML += hours + ' horas, ';
+        document.getElementById('countdown').innerHTML += minutes + ' minutos y ';
+        document.getElementById('countdown').innerHTML += seconds + ' segundos';
+    }
+
+    timer = setInterval(showRemaining, 1000);
+</script>
+</div>
+
+<img class="calendario" src="./images/noviembre2022.gif" alt="calendario">
+<div class="direccion">
+    <h2>En la siguiente direccion: <br> America del norte 2176 <br> Carlos Spegazzini <br> Ezeiza </h2>
+    <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d817.8546367131026!2d-58.576285370819335!3d-34.92103859914575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd837ed339c03%3A0xc9b3f8f16f5568e7!2sAm%C3%A9rica%20de%20Nte.%202176%2C%20B1812BCR%20Carlos%20Spegazzini%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1665186585311!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<h2>Confirma tu asistencia</h2>
+<a href="https://api.whatsapp.com/send?phone=+5401122828166&text=Confimo%20mi%20asistencia%20al%20cumple%20de%20Renzo%20:)">
+<button  class="boton">CONFIRMAR</button>
+</a>
+
+</div>
+</div>
+</body>
+</html>
