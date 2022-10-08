@@ -92,8 +92,8 @@ body{
     padding-left: 85px
    }
    .renzi{
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 350px;
     margin-left: 90px;
    }
    .invita{
@@ -126,7 +126,7 @@ body{
 }
 .direccion{
     font-size: 20px;
-    padding-inline: 40px;
+    padding-inline: 60px;
     display: flex;
 }
 .iframe{
