@@ -89,16 +89,16 @@ body{
    .renzo{
     display: flex;
     justify-content: flex-start;
-    padding-left: 55px
+    padding-left: 85px
    }
    .renzi{
     width: 200px;
     height: 250px;
-    margin-left: 60px;
+    margin-left: 90px;
    }
    .invita{
     font-size: 25px;
-    padding-inline: 40px;
+    padding-inline: 60px;
     display: flex;
 
    }
@@ -106,13 +106,13 @@ body{
     font-family: 'Abel', sans-serif; 
     font-size: medium;
     font-size: 25px;
-    padding-inline: 120px;
+    padding-inline: 160px;
     display: flex;
     margin-top: 20px;
    }
    .contador{
     font-size: 18px;
-    padding-inline: 20px;
+    padding-inline: 40px;
     /* margin-left: 10px; */
     
     display: flex;
@@ -121,12 +121,12 @@ body{
 .calendario{
     width: 250px;
     height: 350px;
-    margin-left: 30px;
+    margin-left: 60px;
     margin-top: 10px;
 }
 .direccion{
     font-size: 20px;
-    padding-inline: 20px;
+    padding-inline: 40px;
     display: flex;
 }
 .iframe{
@@ -135,7 +135,7 @@ body{
 }
 .asistencia{
     font-size: 20px;
-    padding-inline: 10px;
+    padding-inline: 30px;
     display: flex;
     flex-direction: column;
 }
