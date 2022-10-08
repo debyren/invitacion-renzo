@@ -82,7 +82,8 @@ body{
       backdrop-filter: blur(0px);
       background-size: cover;	
     background-position: center center;	
-    background-attachment: fixed;
+    background-position: fixed;
+    
    
     }
     
@@ -101,6 +102,7 @@ body{
     font-size: 25px;
     padding-inline: 60px;
     display: flex;
+    background-color: rgba(0, 0, 0, 0.075);
 
    }
    .faltan{
@@ -111,13 +113,14 @@ body{
     padding-inline: 160px;
     display: flex;
     margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.075);
    }
    .contador{
     font-weight: bold;
     font-size: 18px;
     padding-inline: 40px;
     /* margin-left: 10px; */
-    
+    background-color: rgba(0, 0, 0, 0.075);
     display: flex;
     flex-wrap: wrap;
    }
@@ -128,12 +131,13 @@ body{
     margin-top: 10px;
 }
 .direccion{
-    
+    background-color: rgba(0, 0, 0, 0.075);
     font-size: 20px;
     padding-inline: 60px;
     display: flex;
 }
 .direccion h2{
+    
     font-weight: bold;
 }
 .iframe{
@@ -142,6 +146,7 @@ body{
     margin-left: 10px ;
 }
 .asistencia{
+    background-color: rgba(0, 0, 0, 0.075);
     font-weight: bold;
     font-size: 20px;
     padding-inline: 30px;
