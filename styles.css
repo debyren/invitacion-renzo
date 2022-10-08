@@ -127,7 +127,7 @@ body{
 .calendario{
     width: 250px;
     height: 350px;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-top: 10px;
 }
 .direccion{
@@ -141,9 +141,9 @@ body{
     font-weight: bold;
 }
 .iframe{
-    width: 280px;
-    height: 300px;
-    margin-left: 22px ;
+    width: 250px;
+    height: 350px;
+    margin-left: 50px;
 }
 .asistencia{
     background-color: rgba(0, 0, 0, 0.075);
