@@ -93,7 +93,7 @@ body{
    }
    .renzi{
     width: 280px;
-    height: 310px;
+    height: 330px;
     margin-left: 40px;
    }
    .invita{
@@ -137,7 +137,7 @@ body{
 .iframe{
     width: 280px;
     height: 300px;
-    margin-left: 30px ;
+    margin-left: 10px ;
 }
 .asistencia{
     font-weight: bold;
