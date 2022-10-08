@@ -89,51 +89,59 @@ body{
    .renzo{
     display: flex;
     justify-content: flex-start;
-    padding-left: 35px
+    padding-left: 55px
    }
    .renzi{
     width: 200px;
     height: 250px;
-    margin-left: 30px;
+    margin-left: 60px;
    }
    .invita{
-    font-size: medium;
-    padding-inline: 50px;
+    font-size: 25px;
+    padding-inline: 40px;
     display: flex;
 
    }
    .faltan{
     font-family: 'Abel', sans-serif; 
     font-size: medium;
-    padding-inline: 100px;
+    font-size: 25px;
+    padding-inline: 120px;
     display: flex;
     margin-top: 20px;
    }
    .contador{
-    font-size: 15px;
-    margin-left: 10px;
+    font-size: 18px;
+    padding-inline: 20px;
+    /* margin-left: 10px; */
     
     display: flex;
     flex-wrap: wrap;
    }
 .calendario{
-    width: 200px;
-    height: 250px;
+    width: 250px;
+    height: 350px;
     margin-left: 30px;
     margin-top: 10px;
 }
 .direccion{
-    font-size: medium;
+    font-size: 20px;
     padding-inline: 20px;
     display: flex;
 }
 .iframe{
-    width: 250px;
-    height: 280px;
+    width: 280px;
+    height: 300px;
 }
 .asistencia{
-    font-size: medium;
-    padding-inline: 20px;
+    font-size: 20px;
+    padding-inline: 10px;
     display: flex;
     flex-direction: column;
+}
+.boton{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border:none ;
 }
