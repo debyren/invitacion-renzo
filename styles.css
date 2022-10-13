@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; }
-body{
+/* body{
     background-image: url(./images/banderinesverdes.jpg);
     backdrop-filter: blur(2px);
     background-size: cover;	
@@ -74,15 +74,23 @@ body{
     height: 40px;
     border-radius: 10px;
     border:none ;
-}
+} */
 @media screen and (max-width: 420px){
+    body{
+        background-image: url(./images/mufinsybanderines.jpg);
+        /* backdrop-filter: blur(2px); */
+        background-size: cover;	
+        background-position: center center;	
+        background-attachment: fixed;	
+        font-family: 'Abel', sans-serif; 
+    }
     .bg-color{
         font-size: 55px;
         color: rgb(90, 89, 89);
         font-family: 'Lobster', cursive;
     }
     .invito{
-        width: 320px;
+        /* width: 320px; */
         height: 160px;
         font-size: 25px;
         font-family: 'Abel', sans-serif;
@@ -95,7 +103,16 @@ body{
         height: 80px;
         font-size: 20px;
     }
-    
+    .boton{
+        background-color: gray;
+        color: aliceblue;
+        width: 105px;
+        height: 30px;
+        border-radius: 10px;
+        border:none ;
+        outline: none;
+        
+    }
 }
 
 
